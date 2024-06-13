@@ -1,7 +1,7 @@
+//withRouter Branch
 import React, { useState, useEffect } from 'react'
 import SearchBar from './components/SearchBar'
 import Gallery from './components/Gallery'
-
 
 const App = () => {
   let [search, setSearch] = useState('')
